@@ -46,6 +46,9 @@
         :id="`${id}-item-${index}`"
         role="option"
         :aria-selected="highlightedIndex === index"
+
+
+        
       >
         <slot :item="item">
           {{ item[valueKey] }}
