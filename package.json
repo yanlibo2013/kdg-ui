@@ -36,7 +36,7 @@
     "type": "git",
     "url": "git@github.com:ElemeFE/element.git"
   },
-  "homepage": "http://element.eleme.io",
+  "homepage": "https://github.com/yanlibo2013/kdg-ui",
   "keywords": [
     "eleme",
     "vue",
@@ -44,7 +44,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ElemeFE/element/issues"
+    "url": "https://github.com/yanlibo2013/kdg-ui/issues"
   },
   "unpkg": "lib/index.js",
   "style": "lib/theme-chalk/index.css",
