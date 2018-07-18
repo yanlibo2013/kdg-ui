@@ -42,7 +42,7 @@
         class="el-carousel__indicator"
         :class="{ 'is-active': index === activeIndex }"
         @mouseenter="throttledIndicatorHover(index)"
-        @click.stop="handleIndicatorClick(index)">
+        @click.stop="handleIndicatorClick(index)" :key="index">
         <button class="el-carousel__button"><span v-if="hasLabel">{{ item.label }}</span></button>
       </li>
     </ul>
@@ -85,6 +85,8 @@ export default {
     },
     type: String
   },
+
+
 
   data() {
     return {
